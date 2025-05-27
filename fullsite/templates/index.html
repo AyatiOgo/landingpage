@@ -1,0 +1,544 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href=" {% static 'images/favicon.ico' %}" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CMontserrat:300,400,500,700,800,900%7CQuicksand:700">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href=" {% static 'css/fonts.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="preloader-body">
+            <div class="cssload-container"><span></span><span></span><span></span><span></span>
+            </div>
+        </div>
+    </div>
+    <div class="page">
+        <header class="section page-header">
+            <!--RD Navbar-->
+            <div class="rd-navbar-wrap">
+                <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static"
+                    data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+                    <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
+                    <div class="rd-navbar-aside-outer rd-navbar-collapse bg-gray-700">
+                        <div class="rd-navbar-aside">
+                            <ul class="list-inline list-inline-md">
+                                <li>
+                                    <div class="unit unit-spacing-xs align-items-center">
+                                        <div class="unit-left"><span class="icon icon-sm fa fa-mobile-phone text-white"></span></div>
+                                        <div class="unit-body"><a class="link-contact link-white" href="tel:#">08144952364</a></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="unit unit-spacing-xs align-items-center">
+                                        <div class="unit-left"><a class="link-white" href="#"><span class="icon fa fa-facebook"></span></a></div>
+                                        <div class="unit-left"><a class="link-white" href="#"><span class="icon fa fa-instagram"></span></a></div>
+                                        <div class="unit-left"><a class="link-white" href="#"><span class="icon fa fa-twitter"></span></a></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="rd-navbar-main-outer">
+                        <div class="rd-navbar-main">
+                            <!--RD Navbar Panel-->
+                            <div class="rd-navbar-panel">
+                                <!--RD Navbar Toggle-->
+                                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                                <!--RD Navbar Brand-->
+                                <div class="rd-navbar-brand">
+                                    <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src=" {% static 'images/logo-default-169x34.png' %}" alt="" width="84" height="17"/><img class="brand-logo-light" src="  {% static 'images/logo-default-169x34.png' %} " alt="" width="84" height="17"/></a>
+                                </div>
+                            </div>
+                            <div class="rd-navbar-main-element">
+                                <div class="rd-navbar-nav-wrap">
+                                    <ul class="rd-navbar-nav">
+                                        <li class="rd-nav-item active"><a class="rd-nav-link" href="#home">Home</a>
+                                        </li>
+                                        <li class="rd-nav-item"><a class="rd-nav-link" href="#about">About</a>
+                                        </li>
+                                        <li class="rd-nav-item"><a class="rd-nav-link" href="#our-services">Our Services</a>
+                                        </li>
+                                        <li class="rd-nav-item"><a class="rd-nav-link" href="#projects">Projects</a>
+                                        </li>
+                                        <li class="rd-nav-item"><a class="rd-nav-link" href="#contact-us">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--RD Navbar Search-->
+                            <div class="rd-navbar-contact"><span class="icon fa fa-mobile-phone icon-sm text-primary"></span><a class="link-contact link-white" href="tel:#">(+234) 8144952364</a></div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!--Main Section-->
+        <section class="section position-relative bg-gray-800 block-left-main" id="home">
+            <div class="left-block"><span class="left-block-title">Follow us</span>
+                <ul class="left-block-list line-decorative">
+                    <li><a class="link-white" href="#"><span class="icon fa fa-facebook"></span></a></li>
+                    <li><a class="link-white" href="#"><span class="icon fa fa-instagram"></span></a></li>
+                    <li><a class="link-white" href="#"><span class="icon fa fa-twitter"></span></a></li>
+                </ul>
+            </div>
+            <div class="swiper-container swiper-slider" data-loop="false" data-autoplay="5000" data-simulate-touch="false" data-slide-effect="fade">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide context-dark" data-slide-bg=" {% static 'images/slide-img-01-1375x980.jpg' %}">
+                        <div class="swiper-slide-caption section-xxl block-left-custom">
+                            <div class="container">
+                                <div class="row justify-content-xl-center text-center text-xl-start">
+                                    <div class="col-12 position-static">
+                                        <div class="slide-caption-img"><img src="{% static 'images/slide-img-small-01-470x740.jpg' %}" alt="" width="470" height="740" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xxl-7">
+                                        <h4 class="swiper-caption-subtitle" data-caption-animate="fadeInUp" data-caption-delay="100">Hangzhou, China</h4>
+                                        <h1 class="swiper-caption-title" data-caption-animate="fadeInUp" data-caption-delay="250">2100 Club</h1>
+                                        <h6 class="swiper-caption-subtitle-2" data-caption-animate="fadeInUp" data-caption-delay="350">The world’s first blockchain bar</h6><a class="button button-top button-default-outline button-icon button-icon-right" href="#" data-caption-animate="fadeInUp" data-caption-delay="450" data-waypoint-to="#view-project"><span class="icon mdi mdi-chevron-right"></span>View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide context-dark" data-slide-bg="{% static 'images/slide-img-02-1375x980.jpg' %}">
+                        <div class="swiper-slide-caption section-xxl block-left-custom">
+                            <div class="container">
+                                <div class="row justify-content-xl-center text-center text-xl-start">
+                                    <div class="col-12 position-static">
+                                        <div class="slide-caption-img"><img src="{% static 'images/slide-img-small-02-470x740.jpg' %}" alt="" width="470" height="740" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xxl-7">
+                                        <h4 class="swiper-caption-subtitle" data-caption-animate="fadeInUp" data-caption-delay="100">Milan, Italy</h4>
+                                        <h1 class="swiper-caption-title" data-caption-animate="fadeInUp" data-caption-delay="250">Villa Echo</h1>
+                                        <h6 class="swiper-caption-subtitle-2" data-caption-animate="fadeInUp" data-caption-delay="350">Large 3-bedroom holiday villa</h6><a class="button button-top button-default-outline button-icon button-icon-right" href="#" data-caption-animate="fadeInUp" data-caption-delay="450" data-waypoint-to="#view-project"><span class="icon mdi mdi-chevron-right"></span>View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide context-dark" data-slide-bg="{% static 'images/slide-img-03-1375x980.jpg' %}">
+                        <div class="swiper-slide-caption section-xxl block-left-custom">
+                            <div class="container">
+                                <div class="row justify-content-xl-center text-center text-xl-start">
+                                    <div class="col-12 position-static">
+                                        <div class="slide-caption-img"><img src="{% static 'images/slide-img-small-03-470x740.jpg' %}" alt="" width="470" height="740" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xxl-7">
+                                        <h4 class="swiper-caption-subtitle" data-caption-animate="fadeInUp" data-caption-delay="100">Cleveland, United States</h4>
+                                        <h1 class="swiper-caption-title" data-caption-animate="fadeInUp" data-caption-delay="250">Museum</h1>
+                                        <h6 class="swiper-caption-subtitle-2" data-caption-animate="fadeInUp" data-caption-delay="350">Rock and Roll Hall of Fame</h6><a class="button button-top button-default-outline button-icon button-icon-right" href="#" data-caption-animate="fadeInUp" data-caption-delay="450" data-waypoint-to="#view-project"><span class="icon mdi mdi-chevron-right"></span>View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Swiper Pagination-->
+                <div class="swiper-pagination"></div>
+                <!--Swiper Navigation-->
+                <div class="swiper-button-prev fa-arrow-left"></div>
+                <div class="swiper-button-next fa-arrow-right"></div>
+                <!--Swiper Counter-->
+                <div class="swiper-counter"></div>
+                <!--Swiper Scrollbar-->
+                <div class="swiper-scrollbar d-none d-xl-block"></div>
+            </div>
+        </section>
+        <!--About Us-->
+        <section class="sectioon section-lg bg-default bg-custom-gray" id="about">
+            <div class="container">
+                <div class="row row-50 justify-content-lg-between">
+                    <div class="col-lg-6">
+                        <h6 class="subtitle-section text-primary wow fadeInLeft" data-wow-delay=".1s">About us</h6>
+                        <h2 class="title-section block-1 wow fadeInLeft" data-wow-delay=".2s">We Turn Ideas Into Reality</h2>
+                        <p class="text-gray-800 wow fadeInLeft" data-wow-delay=".3s">We apply innovative design solutions to enhance people’s residential well-being and to help workplaces succeed & achieve more in the comfortable environments!</p>
+                        <p class="fw-light wow fadeInLeft" data-wow-delay=".4s">All our team collaborates with our clients, across all of our 3 offices, which are located throughout the US. Our mission is to implement the outstanding design ideas and solutions for any project we’re working on. During that
+                            process, we carefully combine client’s guidelines, technical possibilities as well as the environmental issues. Engineering and interior design solutions that we deliver are usually born after a collaborative process.</p>
+                        <div class="row row-40 text-center text-lg-start box-nina-wrapper">
+                            <div class="col-sm-4 box-nina wow fadeInUp" data-wow-delay=".2s">
+                                <div class="box-nina-icon"><span class="icon icon-lg text-gray-800 linearicons-apartment"></span></div>
+                                <h6 class="box-nina-title"><a href="#">Architecture</a></h6>
+                            </div>
+                            <div class="col-sm-4 box-nina wow fadeInUp" data-wow-delay=".2s">
+                                <div class="box-nina-icon mod-2"><span class="icon icon-lg text-gray-800 linearicons-chair"></span></div>
+                                <h6 class="box-nina-title"><a href="#">Interiors</a></h6>
+                            </div>
+                            <div class="col-sm-4 box-nina wow fadeInUp" data-wow-delay=".2s">
+                                <div class="box-nina-icon"><span class="icon icon-lg text-gray-800 linearicons-compass"></span></div>
+                                <h6 class="box-nina-title"><a href="#">Planning</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xxl-3 offset-top-lg-120 text-center text-lg-start">
+                        <div class="text-img"><span class="counter">17</span></div>
+                        <div class="box-counter-text inset-left-lg-30">
+                            <h2 class="title-section-2 wow fadeInRight" data-wow-delay=".3s">Years</h2>
+                            <h6 class="subtitle-section-2 text-gray-800 wow fadeInRight" data-wow-delay=".3s">Of Successful work<br class='d-none d-lg-block'> in the market</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Our Services-->
+        <section class="sectioon section-lg section-lg-bottom bg-default" id="our-services">
+            <div class="container">
+                <div class="row row-30 g-0 justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="text-center text-lg-start">
+                            <h6 class="subtitle-section text-primary wow fadeInUp" data-wow-delay=".1s">Our Services</h6>
+                            <h2 class="title-section block-2 wow fadeInUp" data-wow-delay=".2s">Construction Solutions</h2>
+                        </div>
+                        <div class="block-3 img-offset-top"><img class="wow fadeInLeft" src="{% static 'images/index-img-01-585x585.jpg' %}" alt="" width="585" height="585" data-wow-delay=".1s" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay=".1s">
+                        <div class="box-zita-wrapper">
+                            <div class="box-zita">
+                                <p>The first thing we do is meeting with our clients and talk through their goals on a future project. During this meeting, feel free to communicate your ideas and ask lots of questions. This stage is highly decisive as you
+                                    can evaluate the work of your potential architect by browsing their portfolio.</p>
+                            </div>
+                            <div class="box-zita bg-primary">
+                                <h4 class="box-zita-title">We focus on the problem, the question and the solution. And we always think ahead.</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-0">
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay=".2s">
+                        <div class="box-kira"><span class="icon icon-md text-gray-800 linearicons-wall2"></span>
+                            <h4 class="fw-bold"><a href="#">Construction Services</a></h4>
+                            <p class="fw-light">Our customers love the pace/quality tempo that we show during each of the principal construction processes! We're comfortable with any idea of our clients.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay=".2s">
+                        <div class="box-kira"><span class="icon icon-md text-gray-800 linearicons-city"></span>
+                            <h4 class="fw-bold"><a href="#">Construction Management</a></h4>
+                            <p class="fw-light">Our project management is essential. We're using the most time and iterations efficient life cycles methods for that to complete all the projects on time.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay=".4s">
+                        <div class="box-kira"><span class="icon icon-md text-gray-800 linearicons-pencil-ruler2"></span>
+                            <h4 class="fw-bold"><a href="#">Design-Build</a></h4>
+                            <p class="fw-light">If a project is not too complex, we may hire a designer-builder type of contractor, to make the longevity of the construction shorter.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 wow fadeIn" data-wow-delay=".4s">
+                        <div class="box-kira"><span class="icon icon-md text-gray-800 linearicons-pencil5"></span>
+                            <h4 class="fw-bold"><a href="#">General Contracting</a></h4>
+                            <p class="fw-light">We have a long list of professional contractors, whom our engineers and architects enjoy to work with on a majority of our construction projects!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Gallery-->
+        <section class="section" id="projects">
+            <div class="container-fluid wow fadeInUp" data-wow-delay=".3s">
+                <div class="isotope-wrap" id="view-project">
+                    <div class="row row-condensed g-0 isotope" data-isotope-layout="masonry" data-column-class=".col-1" data-isotope-group="gallery-02" data-lightgallery="group">
+                        <div class="col-1 isotope-item isotope-sizer"></div>
+                        <div class="col-sm-6 col-xl-3 isotope-item offset-top-2">
+                            <!-- Gallery Classic-->
+                            <article class="gallery-classic">
+                                <div class="gallery-classic-figure"><img src=" {% static 'images/gallery-img-01-480x780.jpg' %}" alt="" width="480" height="780" />
+                                </div>
+                                <div class="gallery-classic-text">
+                                    <h4 class="gallery-classic-title">Hangzhou, China</h4>
+                                    <h6 class="gallery-classic-subtitle">project management</h6>
+                                </div>
+                                <div class="gallery-classic-caption"></div>
+                                <div class="gallery-classic-button"><a class="button icon linearicons-zoom-in" href=" {% static 'images/gallery-img-original-01-1200x800.jpg' %}" data-lightgallery="item"><img src="{% static 'images/gallery-img-01-480x780.jpg' %}" alt="" width="480" height="780"/></a></div>
+                            </article>
+                        </div>
+                        <div class="col-sm-6 col-xl-3 isotope-item offset-top-2">
+                            <!-- Gallery Classic-->
+                            <article class="gallery-classic">
+                                <div class="gallery-classic-figure"><img src="{% static 'images/gallery-img-02-480x780.jpg' %}" alt="" width="480" height="780" />
+                                </div>
+                                <div class="gallery-classic-text">
+                                    <h4 class="gallery-classic-title">Los Angeles, United States</h4>
+                                    <h6 class="gallery-classic-subtitle">Architectural services</h6>
+                                </div>
+                                <div class="gallery-classic-caption"></div>
+                                <div class="gallery-classic-button"><a class="button icon linearicons-zoom-in" href="{% static 'images/gallery-img-original-02-1200x800.jpg' %}" data-lightgallery="item"><img src=" {% static 'images/gallery-img-02-480x780.jpg'  %}" alt="" width="480" height="780"/></a></div>
+                            </article>
+                        </div>
+                        <div class="col-sm-6 col-xl-3 isotope-item offset-top-2">
+                            <!-- Gallery Classic-->
+                            <article class="gallery-classic">
+                                <div class="gallery-classic-figure"><img src="{% static 'images/gallery-img-03-480x780.jpg' %}" alt="" width="480" height="780" />
+                                </div>
+                                <div class="gallery-classic-text">
+                                    <h4 class="gallery-classic-title">Montreal, Canada</h4>
+                                    <h6 class="gallery-classic-subtitle">Pre-construction</h6>
+                                </div>
+                                <div class="gallery-classic-caption"></div>
+                                <div class="gallery-classic-button"><a class="button icon linearicons-zoom-in" href=" {% static 'images/gallery-img-original-03-800x1200.jpg' %}" data-lightgallery="item"><img src=" {% static 'images/gallery-img-03-480x780.jpg' %} " alt="" width="480" height="780"/></a></div>
+                            </article>
+                        </div>
+                        <div class="col-sm-6 col-xl-3 isotope-item offset-top-2">
+                            <!-- Gallery Classic-->
+                            <article class="gallery-classic">
+                                <div class="gallery-classic-figure"><img src="{% static 'images/gallery-img-04-480x780.jpg' %}" alt="" width="480" height="780" />
+                                </div>
+                                <div class="gallery-classic-text">
+                                    <h4 class="gallery-classic-title">Reggio Emilia, Italy</h4>
+                                    <h6 class="gallery-classic-subtitle">Facade engineering</h6>
+                                </div>
+                                <div class="gallery-classic-caption"></div>
+                                <div class="gallery-classic-button"><a class="button icon linearicons-zoom-in" href="{% static 'images/gallery-img-original-04-1200x800.jpg' %}" data-lightgallery="item"><img src=" {% static 'images/gallery-img-04-480x780.jpg' %}" alt="" width="480" height="780"/></a></div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center button-top-2"><a class="button button-primary-outline wow fadeInUp" href="#" data-wow-delay="2.s">View All Projects</a></div>
+            </div>
+        </section>
+        <!--Our Team-->
+        <section class="section section-lg section-collapse bg-default">
+            <div class="container">
+                <div class="row row-30 justify-content-center">
+                    <div class="col-md-6">
+                        <div class="row row-30">
+                            <div class="col-lg-12">
+                                <div class="text-center text-md-start">
+                                    <h6 class="subtitle-section text-primary wow fadeInLeft" data-wow-delay=".1s">Our Team</h6>
+                                    <h2 class="title-section wow fadeIneft" data-wow-delay=".2s">Meet our<br class='d-none d-xl-block'> team members</h2>
+                                </div>
+                                <div class="offset-top-3 wow fadeInLeft" data-wow-delay=".2s">
+                                    <div class="box-dina">
+                                        <div class="box-dina-img"><img src=" {% static 'images/box-dina-img-01-570x670.jpg' %}" alt="" width="570" height="670" />
+                                        </div>
+                                        <div class="box-dina-text">
+                                            <h4 class="box-dina-title"><a href="#">Steven Hodges</a></h4>
+                                            <h6 class="box-dina-subtitle">Founder / Architect</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 wow fadeInLeft" data-wow-delay=".2s">
+                                <div class="box-dina">
+                                    <div class="box-dina-img"><img src=" {% static 'images/box-dina-img-03-570x670.jpg' %}" alt="" width="570" height="670" />
+                                    </div>
+                                    <div class="box-dina-text">
+                                        <h4 class="box-dina-title"><a href="#">Emma Collins</a></h4>
+                                        <h6 class="box-dina-subtitle">Engineer</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row row-30">
+                            <div class="col-md-12 wow fadeInRight" data-wow-delay=".2s">
+                                <div class="box-dina">
+                                    <div class="box-dina-img"><img src=" {% static 'images/box-dina-img-02-570x670.jpg' %}" alt="" width="570" height="670" />
+                                    </div>
+                                    <div class="box-dina-text">
+                                        <h4 class="box-dina-title"><a href="#">Anna Miller</a></h4>
+                                        <h6 class="box-dina-subtitle">lead Interior designer</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 wow fadeInRight" data-wow-delay=".2s">
+                                <div class="box-dina">
+                                    <div class="box-dina-img"><img src=" {% static 'images/box-dina-img-04-570x670.jpg' %}" alt="" width="570" height="670" />
+                                    </div>
+                                    <div class="box-dina-text">
+                                        <h4 class="box-dina-title"><a href="#">Phillip Bennett</a></h4>
+                                        <h6 class="box-dina-subtitle">Building contractor</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Get in Touch-->
+        <section class="section section-lg section-collapse section-size bg-default" id="contact-us">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-8">
+                        <div class="text-center">
+                            <h6 class="subtitle-section text-primary wow fadeIn" data-wow-delay=".1s">Contact Our Team</h6>
+                            <h2 class="title-section ls-1 wow fadeIn" data-wow-delay=".2s">Get in Touch</h2>
+                            <p>Looking forward to building your own residential or commercial property? Feel free to contact<br class='d-none d-xl-block'> us using the form below to discuss additional details of your project with our managers so<br class='d-none d-xl-block'>                                that our team could get started with your project right away.</p>
+                            <!-- <form class="rd-form rd-mailform" action="https://formsubmit.co/ayatiogo@gmail.com" method="post" >
+                                <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+                                <input type="hidden" name="_captcha" value="false">
+                                <div class="row row-40 wow fadeIn" >
+                                    <div class="col-12">
+                                        <h4 class="fw-bold">Name</h4>
+                                        <div class="form-wrap">
+                                            <input class="form-input" id="contact-first-name" type="text" name="name" >
+                                            <label class="form-label" for="contact-first-name">Type your name here</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <h4 class="fw-bold">Email</h4>
+                                        <div class="form-wrap">
+                                            <input class="form-input" id="contact-email" type="email" name="email" >
+                                            <label class="form-label" for="contact-email">Type your email here</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <h4 class="fw-bold">Message</h4>
+                                        <div class="form-wrap form-wrap-textarea">
+                                            <label class="form-label" for="contact-message">Type your message here</label>
+                                            <textarea class="form-input" id="contact-message" name="message" ></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button class="button button-primary button-icon button-icon-right" type="submit"><span class="icon mdi mdi-chevron-right"></span>Send</button>
+                                    </div>
+                                </div>
+                            </form> -->
+
+                            <form class="rd-form rd-mailform" action="https://formsubmit.co/ayatiogo@gmail.com" method="POST">
+                                <!-- ✅ Required hidden inputs for FormSubmit -->
+                                <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+                                <input type="hidden" name="_captcha" value="false">
+
+                                <div class="row row-40 wow fadeIn">
+                                    <div class="col-12">
+                                        <h4 class="fw-bold">Name</h4>
+                                        <div class="form-wrap">
+                                            <input class="form-input" id="contact-first-name" type="text" name="name" required>
+                                            <label class="form-label" for="contact-first-name">Type your name here</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <h4 class="fw-bold">Email</h4>
+                                        <div class="form-wrap">
+                                            <input class="form-input" id="contact-email" type="email" name="email" required>
+                                            <label class="form-label" for="contact-email">Type your email here</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <h4 class="fw-bold">Message</h4>
+                                        <div class="form-wrap form-wrap-textarea">
+                                            <label class="form-label" for="contact-message">Type your message here</label>
+                                            <textarea class="form-input" id="contact-message" name="message" required></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 text-center">
+                                        <button class="button button-primary button-icon button-icon-right" type="submit">
+                                            <span class="icon mdi mdi-chevron-right"></span>Send
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Let’s Work Together!-->
+        <section class="section section-md bg-primary">
+            <div class="container">
+                <div class="row g-0 row-30 justify-content-lg-between align-items-lg-center text-center text-lg-start">
+                    <div class="col-lg-9 wow fadeInRight" data-wow-delay=".3s">
+                        <h2 class="title-section ls-2">Construction of Any Complexity</h2>
+                        <h6 class="subtitle-section-3">Trust our team with your next project</h6>
+                    </div>
+                    <div class="col-lg-3 text-lg-end wow fadeInLeft" data-wow-delay=".3s"><a class="button button-lg button-gray-800" href="#">Get Started</a></div>
+                </div>
+            </div>
+        </section>
+        <!--Our Clients-->
+        <section class="section section-lg section-lg-2-bottom context-dark bg-gray-800">
+            <div class="container">
+                <div class="row row-30 row-md-60 text-center">
+                    <div class="col-12">
+                        <h6 class="subtitle-section text-primary wow fadeIn" data-wow-delay=".1s">Our Clients</h6>
+                        <h2 class="title-section ls-3 wow fadeIn" data-wow-delay=".2s">We Work Worldwide</h2>
+                    </div>
+                    <div class="col-12 wow fadeIn" data-wow-delay=".3s"><img src=" {% static 'images/map-img.png' %}" alt="" />
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <footer class="section footer-classic context-dark">
+            <div class="decorative-word"><span>c</span><span class="rotate">i</span><span>t</span><span>y</span><span>s</span><span>c</span><span>a</span><span>p</span><span>e</span></div>
+            <div class="container">
+                <div class="row row-70 flex-column-reverse flex-xl-row">
+                    <div class="col-xl-10">
+                        <div class="row row-40">
+                            <div class="col-sm-6 col-xl-5">
+                                <h2 class="title-section">Contacts</h2>
+                                <p class="footer-text">929 Plymouth Ave.<br class='d-none d-lg-block'> New York, NY 10011</p>
+                                <p class="footer-link"><a class="link-body" href="tel:#">1-300-123-1234</a></p>
+                                <p class="footer-link-2"><a class="link-body" href="mailto:#">example@example.com</a></p>
+                                <ul class="social-list">
+                                    <li><a class="link-white" href="#"><span class="icon icon-sm fa fa-facebook"></span></a></li>
+                                    <li><a class="link-white" href="#"><span class="icon icon-sm fa fa-instagram"></span></a></li>
+                                    <li><a class="link-white" href="#"><span class="icon icon-sm fa fa-twitter"></span></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 col-xl-7 block-4 offset-top-4 inset-left-xl">
+                                <p class="footer-text">Sign up to our newsletter and be the first to know about the latest news, special offers, events, and discounts.</p>
+                                <form class="rd-form rd-form-2 rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                                    <div class="form-wrap">
+                                        <input class="form-input" id="contact-email-2" type="email" name="email" data-constraints="@Email @Required">
+                                        <label class="form-label" for="contact-email-2">E-mail</label>
+                                    </div>
+                                    <button class="button button-lg button-primary-outline" type="submit">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                        <p class="rights"><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>cityscape</span><span>.&nbsp;</span><span>All rights reserved.</span></p>
+                    </div>
+                    <div class="col-xl-2 position-static">
+                        <div class="google-map-container" data-center="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-zoom="5" data-icon="{% static 'images/gmap_marker.png' %}" data-icon-active="images/gmap_marker_active.png" data-styles="[{&quot;featureType&quot;:&quot;landscape&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:60}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:40},{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;administrative.province&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;},{&quot;lightness&quot;:30}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ef8c25&quot;},{&quot;lightness&quot;:40}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;poi.park&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#b6c54c&quot;},{&quot;lightness&quot;:40},{&quot;saturation&quot;:-40}]},{}]">
+                            <div class="google-map"></div>
+                            <ul class="google-map-markers">
+                                <li data-location="9870 St Vincent Place, Glasgow, DC 45 Fr 45." data-description="9870 St Vincent Place, Glasgow"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src=" {% static 'js/core.min.js' %}"></script>
+    <script src="  {% static 'js/script.js ' %}  "    ></script>
+    <!--coded by Starlight-->
+    <!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P9FT69');
+    </script>
+    <!-- End Google Tag Manager -->
+</body>
+
+</html>
